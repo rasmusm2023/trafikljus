@@ -14,6 +14,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: -10;
 }
 
 /* .menu {
@@ -42,6 +43,7 @@
 .trafikljus {
   /* border: 10px white solid;*/
   background-color: white;
+  z-index: 0;
 }
 
 .red,
@@ -101,21 +103,21 @@
 .redInner,
 .yellowInner,
 .greenInner {
-  height: 150px;
-  width: 150px;
+  opacity: 30%;
+  background-color: white;
 }
 
 .redInner {
   width: 100%;
   height: 50%;
-  background-color: rgb(255, 81, 81);
+  /* background-color: rgb(255, 81, 81); */
   margin-top: 50%;
 }
 
 .yellowInner {
   width: 50%;
   height: 50%;
-  background-color: rgb(255, 255, 126);
+  /* background-color: rgb(255, 255, 126);*/
   margin-top: 50%;
   float: right;
 }
@@ -123,7 +125,7 @@
 .greenInner {
   width: 50%;
   height: 50%;
-  background-color: rgb(89, 158, 89);
+  /* background-color: rgb(89, 158, 89); */
   margin-top: 50%;
   float: left;
 }
