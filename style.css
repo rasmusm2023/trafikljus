@@ -40,7 +40,7 @@
 }
 
 .trafikljus {
-  border: 10px white solid;
+  /* border: 10px white solid;*/
   background-color: white;
 }
 
@@ -52,6 +52,7 @@
   height: 300px;
   width: 300px;
   border: 20px transparent solid;
+  margin: 10px 10px 10px 10px;
 }
 
 .red {
