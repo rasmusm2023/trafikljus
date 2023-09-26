@@ -28,10 +28,10 @@
   text-decoration: none;
   color: #fff;
   font-size: 1.5rem;
-  margin-left: auto; /* Pushes the text to the right, aligning it to the top */
-  margin-right: auto; /* Pushes the text to the right, aligning it to the top */
+  margin-left: auto;
+  margin-right: auto;
   background-color: #252525;
-  display: block; /* Ensures the link is displayed as a block-level element */
+  display: block;
   margin-top: 20px;
 }
 
@@ -49,8 +49,8 @@
 .green {
   height: 300px;
   width: 300px;
-  border: 20px transparent solid;
   margin: 10px;
+  border: 20px transparent solid;
 }
 
 .red {
