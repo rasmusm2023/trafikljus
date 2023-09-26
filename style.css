@@ -50,7 +50,7 @@
   height: 300px;
   width: 300px;
   margin: 10px;
-  border: 20px transparent solid;
+  border: 15px transparent solid;
 }
 
 .red {
@@ -58,14 +58,44 @@
   border-color: rgb(104, 25, 25);
 }
 
+.red:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.red:not(:hover) {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
 .yellow {
   background-color: yellow;
   border-color: rgb(148, 148, 37);
 }
 
+.yellow:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.yellow:not(:hover) {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
 .green {
   background-color: green;
   border-color: rgb(47, 89, 34);
+}
+
+.green:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.green:not(:hover) {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
 }
 
 .redInner,
